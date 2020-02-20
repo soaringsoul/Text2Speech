@@ -18,7 +18,6 @@ class BaiduSpeech(QtWidgets.QMainWindow, Ui_mainWindow):
         self.setWindowIcon(icon2)
         qss = open(os.getcwd() + '/Mainwindow/Mainwindow.qss').read()
         self.setStyleSheet(qss)
-
         self.init_app()
 
     def setBrowerPath(self):
@@ -53,7 +52,7 @@ class BaiduSpeech(QtWidgets.QMainWindow, Ui_mainWindow):
 
     def to_speech(self):
         try:
-            self.speech = Speech(text=self.text)
+            self.speech = Speech(text=self.text,vol=self.vol,pit=self.pit,spd=self.speed, per=self.voice)
             self.speech.progress_signal.connect(self.progress_signal_display)
             self.speech.start()
         except Exception as e:
