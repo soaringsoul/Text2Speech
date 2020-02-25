@@ -1,6 +1,3 @@
----
-typora-root-url: ./
----
 
 语音合成小助手
 
@@ -23,6 +20,8 @@ typora-root-url: ./
 ### 普通使用
 
 如果你只是想使用这个小工具，请直接下载windows可执行文件压缩包。
+
+[点击下载](https://github.com/xugongli/Text2Speech/releases/download/1.0/zip_for_windows.7z)
 
 解压后是一个exe可执行文件，直接打开即可使用。这也是写这个小工具的契机。
 
