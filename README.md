@@ -43,3 +43,11 @@
 
 如果你是windows环境，双击`打开语音合成助手.bat`也可。
 
+## 联系我
+
+如果在使用过程中遇到无法解决的问题，你可以通过关注我的个人公众号找到我。
+
+另外，也可以通过提交issue的方式提交问题。
+
+![rewnwen_wechat](./screeshots/rewnwen_wechat.png)
+

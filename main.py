@@ -16,8 +16,8 @@ class BaiduSpeech(QtWidgets.QMainWindow, Ui_mainWindow):
         self.setupUi(self)
         icon2 = QtGui.QIcon(':/icon2/soaringsoul.jpg')
         self.setWindowIcon(icon2)
-        # qss = open('./Mainwindow/Mainwindow.qss').read()
-        # self.setStyleSheet(qss)
+        qss = open('./Mainwindow/Mainwindow.qss').read()
+        self.setStyleSheet(qss)
         self.init_app()
 
     def setBrowerPath(self):
